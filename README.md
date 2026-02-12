@@ -12,6 +12,22 @@ Does the following:
 
 ## How to Run
 
+Run inotifywait
+
 ```sh
-bash script.sh
+bash watch.sh
 ```
+
+Copy /etc/passwd to a hidden directory of your choice.
+
+```sh
+bash script.sh <directory name>
+```
+
+Clean system of lab artifacts
+
+```sh
+bash clean.sh <directory name>
+```
+
+Note: Do not include a leading . in your directory name
